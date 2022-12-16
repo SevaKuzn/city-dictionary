@@ -20,4 +20,11 @@ from core.views import main
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main),
+    path('moscow', main, name='Москва'),
+    path('saint-peterburg', main,name='Санкт-Петербург'),
+    path('voronezh', main, name='Воронеж'),
+    path('saratov', main, name='Саратов'),
+    path('kostroma', main, name='Кострома'),
+    path('tinda', main,name='Тында'),
+    path('anadir', main,name='Анадыр'),
 ]
