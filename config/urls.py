@@ -26,5 +26,5 @@ urlpatterns = [
     path('saratov', main, name='Саратов'),
     path('kostroma', main, name='Кострома'),
     path('tinda', main,name='Тында'),
-    path('anadir', main,name='Анадыр'),
+    path('anadir', main,name='Анадырь'),
 ]
